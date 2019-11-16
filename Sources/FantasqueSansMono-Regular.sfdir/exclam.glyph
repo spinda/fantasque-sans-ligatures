@@ -9,8 +9,8 @@ LayerCount: 2
 Fore
 SplineSet
 613 1319 m 1xd0
- 597 431 l 5
- 431 431 l 5xc8
+ 597 431 l 1
+ 431 431 l 1xc8
  415 1319 l 1
  613 1319 l 1xd0
 388 270 m 1xe0
