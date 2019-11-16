@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
 ## Unreleased
 
+## [1.8.0] - 2021-12-30
+
+### Removed
+- Stop producing EOTs
+
+[1.8.0]: https://github.com/spinda/fantasque-sans-ligatures/releases/tag/v1.8.0
+
 ## [1.7.2] - 2018-01-07
 
 ### Added
