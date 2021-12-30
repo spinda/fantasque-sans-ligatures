@@ -69,9 +69,9 @@ def permutations():
     bitmap_max = 1 << count
 
     # Iterate over all possible permutations
-    for i in xrange(bitmap_max):
+    for i in range(bitmap_max):
         # Map the iteration's permutations using a bitmap
-        bitmap = [i >> n & 1 for n in xrange(count)]
+        bitmap = [i >> n & 1 for n in range(count)]
         for opts in _expand_options(bitmap):
             yield(int(float(i)/bitmap_max*100), opts)
 
@@ -96,7 +96,7 @@ def _build(dstdir, font, permutations):
         variant = '-'.join(variants) or 'Normal'
         variant_dir = join(dstdir, variant)
 
-        print('Generating ' + variant_dir)
+        print(('Generating ' + variant_dir))
 
         mkdir_p(join(variant_dir, 'TTF'))
         mkdir_p(join(variant_dir, 'OTF'))

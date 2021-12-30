@@ -12,7 +12,7 @@ if len(sys.argv) < 5:
     Third: The .sfdir for the font
     Fourth: The output directory
     """
-    print >> sys.stderr, usage
+    print(usage, file=sys.stderr)
     exit(1)
 
 from fontbuilder import *
