@@ -1,9 +1,15 @@
-Fantasque Sans Mono
-===================
+Fantasque Sans Mono, *sans ligatures*
+=====================================
+
+This is a small fork of the [Fantasque Sans Mono](https://github.com/belluzj/fantasque-sans)
+programming font, stripping out coding ligatures, since upstream doesn't provide an option to build
+without them. The original README continues below.
+
+---
 
 A programming font, designed with functionality in mind, and with some
 wibbly-wobbly handwriting-like fuzziness that makes it unassumingly cool.
-[Download](https://github.com/belluzj/fantasque-sans/releases/latest) or 
+[Download](https://github.com/spinda/fantasque-sans-ligatures/releases/latest) or 
 see [installation instructions](#installation).
 
 
@@ -48,7 +54,7 @@ Stylistic set(s)
 ### `ss01`: nondescript `k`
 
 No ~~distractive~~ lovely loop.
-[Get the pre-activated version here](https://github.com/belluzj/fantasque-sans/releases/download/1.8.0/FantasqueSansMono-NoLoopK.zip)
+[Get the pre-activated version here](https://github.com/spinda/fantasque-sans-ligatures/releases/download/1.8.0/FantasqueSansMono-NoLoopK.zip)
 or see the [issue #67](https://github.com/belluzj/fantasque-sans/issues/67)
 for techniques to activate the stylistic set.
 
@@ -69,7 +75,7 @@ more characters, or if you want to compliment me (I love compliments).
 Installation
 ------------
 
-You can [download the latest version](https://github.com/belluzj/fantasque-sans/releases/latest)
+You can [download the latest version](https://github.com/spinda/fantasque-sans-ligatures/releases/latest)
 and install it by hand. In the `NoLoopK` variant, the looped lowercase `k` is 
 replaced with a straight version. The `LargeLineHeight` variant is especially 
 useful for users of accented capitals. For more info, see the [CHANGELOG](CHANGELOG.md).
@@ -99,7 +105,7 @@ and that [is known to have caused subtle problems](https://github.com/belluzj/fa
 You are advised to install FontForge from
 [this PPA](https://launchpad.net/~fontforge/+archive/ubuntu/fontforge)
 (using `sudo add-apt-repository ppa:fontforge/fontforge` prior to the installation).
-Alternatively, you can always [download](https://github.com/belluzj/fantasque-sans/releases/latest)
+Alternatively, you can always [download](https://github.com/spinda/fantasque-sans-ligatures/releases/latest)
 the latest prebuilt release of these fonts.
 
 `make install` will install the TTF fonts into your local `.fonts/` directory
