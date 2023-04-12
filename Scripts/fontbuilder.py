@@ -221,3 +221,13 @@ def Variation(name):
         fnt.appendSFNTName('English (US)', 'SubFamily', sfnt_dict['SubFamily'])
         fnt.appendSFNTName('English (US)', 'UniqueID', sfnt_dict['UniqueID'] + ' : ' + name)
     return variation_op
+
+def AddSuffix(suffix):
+    def addsuffix_op(fnt):
+        family_name_len = len(fnt.familyname)
+        fnt.familyname += f' {suffix}'
+        fnt.fullname = f'{fnt.fullname[:family_name_len]} {suffix}{fnt.fullname[family_name_len:]}'
+        print(fnt.familyname)
+        print(fnt.fullname)
+
+    return addsuffix_op

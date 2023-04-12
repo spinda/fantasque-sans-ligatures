@@ -51,5 +51,7 @@ option('NoLoopK', 'No loop k', SwapLookup('ss01'))
 # # no calt
 # option('NoCalt', 'Turn off contextual alternates', DropCAltAndLiga())
 
+option('NameSuffix', 'Name Suffix', AddSuffix('noLig'))
+
 # Build options in
 build_batch(output, sys.argv[3], int(sys.argv[1]), int(sys.argv[2]))
