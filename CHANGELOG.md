@@ -6,9 +6,11 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
 ## Unreleased
 
+## [1.8.1] - 2023-04-11
+
 ### Added
 - `NameSuffix` font variants with distinct names ending in `noLig`, to separate
-  them from upstream ligture-having Fantasque Sans Mono (#1).
+  them from upstream ligature-having Fantasque Sans Mono (#1).
 
 ## [1.8.0] - 2021-12-30
 
